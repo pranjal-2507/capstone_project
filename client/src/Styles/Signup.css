@@ -1,0 +1,119 @@
+.signup-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  background-color: #1f2937;
+}
+
+.signup-logo {
+  width: 180px;
+  cursor: pointer;
+}
+
+.signup-container {
+  width: 100%;
+  max-width: 450px;
+  background: #ffffff;
+  padding: 25px;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.signup-input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.signup-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.signup-input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border 0.2s;
+  width: 350px;
+  margin-left: 25px;
+}
+
+.google-signup-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.signup-input:focus {
+  border: 1px solid #0369a1;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #0369a1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.signup-button:hover {
+  background-color: #03597e;
+}
+
+.signup-login-text {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.signup-login-link {
+  color: #0369a1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signup-login-link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .signup-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .signup-logo {
+    width: 150px;
+  }
+
+  .signup-input {
+    font-size: 13px;
+    padding: 8px;
+    width: 200px;
+    margin-left: 45px;
+  }
+
+  .signup-button {
+    font-size: 14px;
+  }
+}

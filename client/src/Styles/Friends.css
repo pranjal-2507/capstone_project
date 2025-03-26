@@ -1,0 +1,220 @@
+#center_column {
+  width: 96%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  align-items: center;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.topbar img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.topbar h1 {
+  flex-grow: 1;
+  font-size: 24px;
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-orange {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+.btn-mint {
+  background-color: #00c853;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-left: 380px;
+  width: 50vw;
+  margin-top: 40px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  color: #000;
+}
+
+.nav-icon {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.nav-icon:hover {
+  cursor: pointer;
+}
+.friend-item {
+  margin-top: 10px;
+
+  border-bottom: 1px solid #ccc;
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+input {
+  border: none;
+  outline: none;
+  width: 550px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.addbutton {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+button {
+  font-size: 20px;
+  border: none;
+  background-color: white;
+  margin-right: 15px;
+}
+
+#expenses {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.month-divider {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.month-divider span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.expense {
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+}
+
+.expense:last-child {
+  border-bottom: none;
+}
+
+.date {
+  width: 60px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.date .number {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.receipt {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.header {
+  flex-grow: 1;
+}
+
+.header .description a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.cost,
+.you {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.cost .number,
+.you .positive {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.actions .delete {
+  color: #f44336;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+#load_more_expenses {
+  margin-top: 20px;
+}
+
+#load_more_expenses_button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}

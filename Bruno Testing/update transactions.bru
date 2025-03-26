@@ -1,0 +1,11 @@
+meta {
+  name: update transactions
+  type: http
+  seq: 3
+}
+
+put {
+  url: http://localhost:3000/updateTransaction/${record._id}
+  body: none
+  auth: none
+}

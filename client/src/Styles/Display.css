@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 250px;
+    line-height: 50px;
+    width: auto;
+    align-items: center;
+    
+}
+.transactions{
+    margin-top: 20px;
+    margin-left: 250px;
+    
+   
+}
+.transaction.checked .name,
+.transaction.checked .amount {
+  color: rgb(152, 150, 150); 
+  text-decoration-line: line-through;
+}
+.transaction{
+    
+    border-bottom: 1px solid gray;
+    padding-right: 250px;
+}
+
+.total{
+    margin-right: 150px;
+    font-size: 20px;
+}

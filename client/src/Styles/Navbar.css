@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-container {
+  width: 100%;
+  background-color: #222833;
+}
+
+.nav {
+  display: flex;
+  background-color: #222833;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: relative;
+}
+
+.imglogo {
+  width: 200px;
+  height: auto;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  gap: 30px; 
+}
+
+
+.auth-section {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+.nav-link {
+  text-decoration: none;
+}
+
+.tag {
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.tag:hover {
+  color: #08bb58;
+}
+
+.logout, .login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #037435;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.logout-icon {
+  opacity: 0;
+  position: absolute;
+  right: 15px;
+  transition: opacity 0.3s ease;
+}
+
+.logout:hover {
+  background-color: #289459;
+  padding-right: 30px;
+}
+
+.logout:hover .logout-icon {
+  opacity: 1;
+}
+
+.login:hover {
+  background-color: #289459;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+}
+
+.photo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+.photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #08bb58;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(8, 187, 88, 0.5);
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .tags {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    flex-direction: column;
+    background-color: #222833;
+    width: 70%;
+    height: 100vh;
+    padding: 100px 20px 20px;
+    transition: right 0.3s ease;
+    z-index: 100;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .tags.mobile-menu-open {
+    right: 0;
+  }
+
+
+
+  .auth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    width: 100%;
+    margin-left: 80px;
+  }
+
+  .logout, .login {
+    width: 50%;
+    /* margin-left: 25px; */
+    margin-left: -50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .imglogo {
+    width: 150px;
+  }
+  .nav{
+    width: 464px;
+  }
+  .tags {
+    width: 85%;
+  }
+}

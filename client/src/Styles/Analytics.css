@@ -1,0 +1,28 @@
+.tracker {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.row,
+.row2 {
+  padding: 20px 20px;
+  margin-top: 50px;
+  margin-left: 180px;
+  width: 430px;
+  background-color: #b2dec58a;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+
+.textinc {
+  color: green;
+}
+.textexp {
+  color: red;
+}
+
+.charts {
+  display: flex;
+}
