@@ -34,7 +34,7 @@ This helps users maintain a clear financial record and make informed decisions a
 
 ---
 
-![Screenshot 2025-03-19 102449](https://github.com/user-attachments/assets/1ac4f87e-6f1f-46f5-a75d-d529eeb1b6fe)
+![Screenshot 2025-03-26 195027](https://github.com/user-attachments/assets/861b68cc-e982-425d-896c-342c1b5afcb2)
 
 
 ## Key Features
